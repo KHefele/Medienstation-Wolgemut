@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: b3202ebf7071b934ab3dffb6b65d8bfd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Vista Sans Nar OT
+  fontNames:
+  - Vista Sans Nar OT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 49d7d4f0473d04a4fa3511b17d391122, type: 3}
+  - {fileID: 12800000, guid: 8d08f1730e7f07040a8e6f12b568392a, type: 3}
+  - {fileID: 12800000, guid: b21d30442b9661b4b921a082ac4e118e, type: 3}
+  - {fileID: 12800000, guid: 264a23d7fdab4d44a89a55c7a74280b9, type: 3}
+  - {fileID: 12800000, guid: 6f930a0a5d5e80c4a86c4af58fc491f0, type: 3}
+  - {fileID: 12800000, guid: 81e64fec5cd41d345bca712d439938bd, type: 3}
+  - {fileID: 12800000, guid: 60634fcec3799bc47a67f2a30f723646, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

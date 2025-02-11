@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TransitionMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: d992ad1c8c321de40b6b7311529a3413,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_3FBD2012:
+        m_Texture: {fileID: 2800000, guid: 4adb3a807acacd54c8375aacc3d4ddb4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HighlightTexture:
+        m_Texture: {fileID: 2800000, guid: ee97c3eb90a61d847b29d6f5ae90aed9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToTexture:
+        m_Texture: {fileID: 2800000, guid: ee97c3eb90a61d847b29d6f5ae90aed9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _StartTime: 2.5535197
+    - _TransitionTime: 1
+    m_Colors: []

@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 83dd411e1bfb8b54e8676a1ce9df7e7f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Vista Sans OT
+  fontNames:
+  - Vista Sans OT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 11481fe194600c14d93a7496706107e8, type: 3}
+  - {fileID: 12800000, guid: 40474df233114da43bcbbd7d733a098f, type: 3}
+  - {fileID: 12800000, guid: 011584d8825efaf4391cf0b703ddcea3, type: 3}
+  - {fileID: 12800000, guid: 2b8cec39919c56949b612c3d3e38a6b3, type: 3}
+  - {fileID: 12800000, guid: 5d6d216c7e763344b86c0b3b2eaa0ba7, type: 3}
+  - {fileID: 12800000, guid: 1f52568d19c4d8842a65dbbb400cdca7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
