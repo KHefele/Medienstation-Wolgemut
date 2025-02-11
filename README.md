@@ -45,20 +45,22 @@ For any inquiries or collaboration requests, feel free to reach out:
 
 ---
 
-## 📸 Screenshots
+## 📸 Pictures and Screenshots
 
-<img src="Assets/Screenshots/media-station.jpg" alt="Media Station at Albrecht-Dürer-Haus" width="400">
+<img src="Assets/Screenshots/media-station.jpg" alt="Media Station at Albrecht-Dürer-Haus" width="300">
 
 *Media station during the exhibition at the Albrecht-Dürer-Haus.*
 
-![In-Game Screenshot](Assets/Screenshots/Screenshot_ingame.png)
+<img src="Assets/Screenshots/Screenshot_ingame.png" alt="Game instructions" width="300">
 
 *Screenshot from the game showing the game instructions.*
 
-![Winning Screen](Assets/Screenshots/Screenshot_wongame.png)
+<img src="Assets/Screenshots/Screenshot-wongame.png" alt="Winning screen" width="300">
 
 *Screen displayed upon successful game completion.*
 
-![Game Over Screen](Assets/Screenshots/Screenshot_lostgame.png)
+<img src="Assets/Screenshots/Screenshot_lostgame.png" alt="Game over screen" width="300">
 
 *Sad, insolvent Wolgemut at Game Over.*
+
+
