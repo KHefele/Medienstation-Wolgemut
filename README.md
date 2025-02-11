@@ -9,26 +9,6 @@ For more details about the exhibition, visit the Website of the **Museen der Sta
 
 ---
 
-## 📸 Screenshots
-
-![Media Station at Albrecht-Dürer-Haus](Assets/Screenshots/media-station.jpg)
-
-*Media station during the exhibition at the Albrecht-Dürer-Haus.*
-
-![In-Game Screenshot](Assets/Screenshots/Screenshot_ingame.png)
-
-*Screenshot from the game showing the game instructions.*
-
-![Winning Screen](Assets/Screenshots/Screenshot_wongame.png)
-
-*Screen displayed upon successful game completion.*
-
-![Game Over Screen](Assets/Screenshots/Screenshot_lostgame.png)
-
-*Sad, insolvent Wolgemut at Game Over.*
-
----
-
 ## 🖥️ Software Overview
 
 This software allows visitors to interact with historical artworks and information in a modern and intuitive way. Features include:
@@ -51,6 +31,7 @@ This project was developed using **Unity Editor Version 2019.2.5f1**.
 
 ## 📜 License
 This project is licensed under the Creative Commons (CC BY-NC-SA) license.
+
 For more details, see the [Creative Commons License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ---
@@ -59,4 +40,25 @@ For more details, see the [Creative Commons License](https://creativecommons.org
 For any inquiries or collaboration requests, feel free to reach out:
 
 👤 Katharina Hefele
+
 📧 [kathefele@gmail.com](kathefele@gmail.com)
+
+---
+
+## 📸 Screenshots
+
+<img src="Assets/Screenshots/media-station.jpg" alt="Media Station at Albrecht-Dürer-Haus" width="400">
+
+*Media station during the exhibition at the Albrecht-Dürer-Haus.*
+
+![In-Game Screenshot](Assets/Screenshots/Screenshot_ingame.png)
+
+*Screenshot from the game showing the game instructions.*
+
+![Winning Screen](Assets/Screenshots/Screenshot_wongame.png)
+
+*Screen displayed upon successful game completion.*
+
+![Game Over Screen](Assets/Screenshots/Screenshot_lostgame.png)
+
+*Sad, insolvent Wolgemut at Game Over.*
