@@ -14,6 +14,20 @@ public class Guldenzaehler : MonoBehaviour
     public TextMeshProUGUI timeLeftText;
 
 
+    public GameObject gameOverPanel;
+    public GameObject successPanel_600Gulden;
+    public GameObject successPanel_400Gulden;
+    public GameObject successPanel_200Gulden;
+    public GameObject successPanel_0Gulden;
+    public GameObject confetti;
+
+    public GameObject fallendeNeg200_1;
+    public GameObject fallendeNeg200_2;
+    public GameObject fallendeNeg200_3;
+
+    public Image ganzerAltar;
+
+
     float timeOfLastInput;
 
     void Start()
@@ -25,11 +39,73 @@ public class Guldenzaehler : MonoBehaviour
     public void LoseMoney(int amount)
     {
         gulden -= amount;
-        if (gulden <= 0)
+        if (gulden < 0)
         {
-
+            gameOverPanel.SetActive(true);
         }
         guldenText.text = gulden + " Gulden verbleiben.";
+
+        float duration = 1.5f;
+        float deltaPerSecond = 1 / duration;
+
+        if (gulden == 400)
+        {
+            fallendeNeg200_1.SetActive(true);
+        }
+        else if (gulden == 200)
+        {
+            fallendeNeg200_2.SetActive(true);
+        }
+        else if (gulden == 0)
+        {
+            fallendeNeg200_3.SetActive(true);
+        }
+    }
+
+    public void Success()
+    {
+        StartCoroutine(WaitAndSuccess());
+    }
+
+    public IEnumerator WaitAndSuccess()
+    {
+        yield return new WaitForSeconds(1);
+
+        // Einblenden.
+
+        float duration = 3;
+        float deltaPerSecond = 1 / duration;
+
+        ganzerAltar.gameObject.SetActive(true);
+        Color color = ganzerAltar.color;
+        while (color.a < 1)
+        {
+            color.a += Time.deltaTime * deltaPerSecond;
+            ganzerAltar.color = color;
+
+            yield return null;
+        }
+
+        yield return new WaitForSeconds(1);
+
+        if (gulden == 600)
+        {
+            successPanel_600Gulden.SetActive(true);
+            confetti.SetActive(true);
+        }
+        else if (gulden == 400)
+        {
+            successPanel_400Gulden.SetActive(true);
+            confetti.SetActive(true);
+        }
+        else if (gulden == 200)
+        {
+            successPanel_200Gulden.SetActive(true);
+        }
+        else if (gulden == 0)
+        {
+            successPanel_0Gulden.SetActive(true);
+        }
     }
 
     void Update()
