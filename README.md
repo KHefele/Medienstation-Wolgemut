@@ -1,4 +1,4 @@
-# 🎨 Media Station for Michael Wolgemut and the Schwabach Altarpiece
+# Media Station for Michael Wolgemut and the Schwabach Altarpiece
 
 This media station was developed for the **Albrecht-Dürer-Haus** as part of the exhibition **"Michael Wolgemut - Mehr als Dürers Lehrer"**. It offers a structured way to explore the artistic legacy of **Michael Wolgemut and his workshop**, with a special focus on the **Schwabach Altarpiece**.
 
