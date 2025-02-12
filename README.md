@@ -13,10 +13,10 @@ For more details about the exhibition, visit the Website of the **Museen der Sta
 
 This software allows visitors to interact with historical artworks and information in a modern and intuitive way. Features include:
 
-* **Touchscreen Interaction** – Easy-to-use interface for museum visitors\
-* **Historical Content** – Information and images related to Michael Wolgemut, his workshop, and the Schwabach Altarpiece\
-* **Gamification** – Interactive game elements for an engaging learning experience\
-* **Portrait Mode** – Designed for a vertical screen layout\
+* **Touchscreen Interaction** – Easy-to-use interface for museum visitors
+* **Historical Content** – Information and images related to Michael Wolgemut, his workshop, and the Schwabach Altarpiece
+* **Gamification** – Interactive game elements for an engaging learning experience
+* **Portrait Mode** – Designed for a vertical screen layout
 * **Offline Functionality** – Can run without an internet connection
 
 ---
